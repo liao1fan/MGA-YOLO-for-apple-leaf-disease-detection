@@ -74,7 +74,7 @@ All the configuration files of YOLO networks  are included in directory 'Myhub'.
 
 'utils' contains all the tool functions to parse configuration files, define loss functions,  draw plots for results, etc.
 
-All the codes in this section are from https://github.com/ultralytics/yolov5.
+All the code in this section are from https://github.com/ultralytics/yolov5.
 
 
 
