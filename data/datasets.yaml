@@ -1,0 +1,10 @@
+train:  ./data/train.txt  # 4766 images
+val:  ./data/val.txt  # 2036 images
+
+test: ./data/test.txt # 2036 images
+
+# number of classes
+nc: 4
+
+# class names
+names: ['apple_healthy','apple_black_rot','apple_scab'  ,'apple_rust' ]
