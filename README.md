@@ -59,8 +59,8 @@ All the configuration files of YOLO networks  are included in directory 'Myhub'.
 | YOLOv5s-ghost-C3MB-SE                            | 91     | 95.8    | 8708233    | 11.4     | 17.391     |
 | YOLOv5s-ghost-C3MB-CA                            | 91     | 95.6    | 6256381    | 11.4     | 12.617     |
 | YOLOv5s-ghost-C3MB-CBAM                          | 92.5   | 96      | 6440256    | 11.4     | 12.946     |
-| YOLOv5s-ghost-C3MB-CBAM-add_prediction_head      | 93.6   | 96.6    | 7641179    | 11.6     | 9.654      |
-| YOLOv5s-ghost-C3MB-CBAM-add_prediction_head-GELU | 94     | 96.7    | 7641179    | 11.6     | 10.337     |
+| YOLOv5s-ghost-C3MB-CBAM-Prediction_Head      | 93.6   | 96.6    | 7641179    | 11.6     | 9.654      |
+| YOLOv5s-ghost-C3MB-CBAM-Prediction_Head-GELU | 94     | 96.7    | 7641179    | 11.6     | 10.337     |
 
 ​		YOLOv5s-ghost-C3MB-CBAM-add_prediction_head-GELU denotes MGA-YOLO. The result shows that our proposed MGA-YOLO outperforms the baseline YOLOv5s.
 
