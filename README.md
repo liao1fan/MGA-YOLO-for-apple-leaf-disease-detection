@@ -2,6 +2,8 @@
 
 ## Dataset: Apple Leaf Disease Object Detection dataset (ALDOD)
 
+ALDOD can be found in Kaggle:
+
 ## 1. Dataset structure
 
 The structure of our dataset is as follows:
