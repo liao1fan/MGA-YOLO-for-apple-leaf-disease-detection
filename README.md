@@ -27,7 +27,7 @@ The structure of our dataset is as follows:
   * datasets.yaml
   * hyps
 
-
+Note that in the 'data' directory, there are no 'images' directory and 'labels' directory. You need to download ```yolo_dataset.zip``` in https://www.kaggle.com/datasets/liaofanyishi/apple-leaf-disease-object-detection-dataset, unzip it and put 'images' folder and 'labels' folder into the 'data' directory.
 
 (1) 'images' contains 8838 images with complex environmental conditions.
 
@@ -101,3 +101,10 @@ To evaluate the performance of the trained model, run the file 'val.py'. The res
 To detect apple leaf diseases using the trained model, run the file 'detect.py'. The results will save in the directory 'runs/detect/'.
 
 Note that when we have finished training a model, we will get the results evaluated on the validation set. We need to use the 'val.py' file to obtain the results on the test set. The results on the test set illustrate the real performance of the model in practical applications.
+
+Run the command ```python val.py --task test``` to evaluate the model on the test set.
+
+# 5.Pytorch
+If code cannot run normally, maybe the version of ```torch``` is too high. Use the command to download torch 1.7.1+cu101 (The version is same as authors).
+
+```pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html```

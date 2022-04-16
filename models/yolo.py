@@ -249,9 +249,6 @@ def parse_model(d, ch):  # model_dict; input_channels=3,type=list  --- Core func
             c1, c2 = ch[f], args[0] # if f==-1 ch[f] stands for out channel of the previous module , args[0] is default output channel
             if c2 != no:  # if not output
                 c2 = make_divisible(c2 * gw, 8) # returns c2 evenly divisible by divisor 8
-            # define a input tensor to compute flops
-
-            # total_flops += FlopCountAnalysis(m , inputs = inputs)
 
             args = [c1, c2, *args[1:]]
             if m in [BottleneckCSP, C3, C3SPP,C3Ghost , C3MB,C3MBWithCBAM ,C3MBWithCAlayer,C3MB0,C3GhostGE,C3MBWithCBAMGE ]: # C3_X and its counterpart

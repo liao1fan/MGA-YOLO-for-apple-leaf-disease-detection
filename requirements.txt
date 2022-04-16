@@ -28,4 +28,6 @@ pandas
 # Cython  # for pycocotools https://github.com/cocodataset/cocoapi/issues/172
 # pycocotools>=2.0  # COCO mAP
 # albumentations>=1.0.3
+
 thop  # FLOPs computation
+fvcore # FLOPs computation

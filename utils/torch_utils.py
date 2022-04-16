@@ -127,6 +127,7 @@ def profile(input, ops, n=10, device=None):
             tf, tb, t = 0., 0., [0., 0., 0.]  # dt forward, backward
             try:
                 flops = thop.profile(m, inputs=(x,), verbose=False)[0] / 1E9 * 2  # GFLOPs
+
                 # from fvcore.nn import FlopCountAnalysis, parameter_count_table
                 # print(parameter_count_table(model))
                 # flops = FlopCountAnalysis(model , (img,)).total() / 1E9 * 2
@@ -257,7 +258,7 @@ def model_info(model, verbose=False, img_size=640):
         # stride = max(int(model.stride.max()), 32) if hasattr(model, 'stride') else 32
         img = torch.zeros((1, model.yaml.get('ch', 3), img_size[0], img_size[1]), device=next(model.parameters()).device)  # input
 
-        print('img shape' , img.shape)
+        # print('img shape' , img.shape)
         from fvcore.nn import FlopCountAnalysis
         # flops = profile(deepcopy(model) ,inputs=(img,) , verbose=False)[0] / 1E9 * 2  # stride GFLOPs
         flops = FlopCountAnalysis(deepcopy(model) , (img,))

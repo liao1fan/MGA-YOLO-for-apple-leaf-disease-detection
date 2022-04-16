@@ -295,7 +295,7 @@ def run(data,
 def parse_opt():
     parser = argparse.ArgumentParser(prog='val.py')
     parser.add_argument('--data', type=str, default='data/datasets.yaml', help='dataset.yaml path')
-    parser.add_argument('--weights', nargs='+', type=str, default='./weights_MG_CBAM_GELU/best.pt', help='model.pt path(s)')
+    parser.add_argument('--weights', nargs='+', type=str, default='./weights/MGA-YOLO/best.pt', help='model.pt path(s)')
     # parser.add_argument('--weights', nargs='+', type=str, default='D:/Desktop/MGCA_correction_result/weights/best.pt', help='model.pt path(s)')
     # parser.add_argument('--weights', nargs='+', type=str, default='/home/ubuntu/Python_yolov5_newPlant/runs/train/exp77/weights/best.pt', help='model.pt path(s)')
     parser.add_argument('--batch-size', type=int, default=32, help='batch size')
