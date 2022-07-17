@@ -104,7 +104,7 @@ Note that when we have finished training a model, we will get the results evalua
 
 Run the command ```python val.py --task test``` to evaluate the model on the test set.
 
-# 5.Pytorch
+## 5.Pytorch
 If code cannot run normally, maybe the version of ```torch``` is too high. Use the command to download torch 1.7.1+cu101 (The version is same as authors).
 
 ```pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html```
