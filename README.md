@@ -108,3 +108,9 @@ Run the command ```python val.py --task test``` to evaluate the model on the tes
 If code cannot run normally, maybe the version of ```torch``` is too high. Use the command to download torch 1.7.1+cu101 (The version is same as authors).
 
 ```pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html```
+
+## 6.Supplement Experiment
+
+We have tested our proposed model on more general identification datasets, proving that our model is also applicable to other fields.
+
+The datasets the supplement experiments used include a traffic sign dataset (available in  www.kaggle.com/dataset/3eeb8f72d20704c13a48fc3961fe29b9e2cc220ad24192a8f948699d102ef920 ) collected by ourselves and a public dataset called Stanford Dogs Dataset (available in http://vision.stanford.edu/aditya86/ImageNetDogs/main.html). 
