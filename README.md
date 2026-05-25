@@ -1,5 +1,5 @@
 # MGA-YOLO for apple leaf disease detection
-
+https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.927424/full
 ## Dataset: Apple Leaf Disease Object Detection dataset (ALDOD)
 
 ALDOD can be found in Kaggle: https://www.kaggle.com/datasets/liaofanyishi/apple-leaf-disease-object-detection-dataset
